@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: radial-gradient(circle at 50% -20.71%, #ff9a47 0, #ff8a4c 12.5%, #f57950 25%, #e36751 37.5%, #cc5550 50%, #b4454d 62.5%, #9e374a 75%, #8b2d48 87.5%, #7a2647 100%);;
+}
+
+.cabecalho-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 200px;
+}
+
+.cabecalho-add {
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 16px;
+}
